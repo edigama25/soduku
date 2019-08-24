@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(0, 153, 255);
+}
+.containe
+{
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;   
+    margin: auto; 
+}
+.jumbotron
+{
+    background-color: rgb(209, 202, 202);
+    border: solid black 1px;
+    padding: 10px;
+}
+.main
+{
+    margin: auto;
+    text-align: center;
+}
+#sudoku_table
+{
+    margin: auto;
+    padding: 100px;
+}
+#sudoku_table td
+{
+    border: solid black 1px;
+    padding: 5px;
+    margin: 10px;
+}
+#sudoku_table input[type=text]
+{
+    border: solid black 1px;
+    background-color: rgb(0, 153, 255);
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+#sudoku_table input:disabled[type=text]
+{
+     font-weight: bold;
+     color: darkblue;
+}
+#sudoku_table input[type=text]:focus
+{
+    border: solid rgb(9, 255, 0) 2px;
+}
+#sudoku_table input:hover {
+	background: rgb(164, 165, 165);
+}
+.navbar
+{
+    border: solid black 1px;
+}
+#sudoku_table tr:first-child 
+{
+	border-left:solid black 3px;
+}
+#sudoku_table tr:nth-child(3n) td 
+{
+    border-bottom: solid  black 3px;
+}
+#sudoku_table td:first-child 
+{
+	border-left:solid black 3px;
+}
+#sudoku_table td:nth-child(3n) 
+{
+	border-right:solid black 3px;
+}
